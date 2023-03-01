@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+.total {
+    margin-right: 10vw;
+}
+
+h2 {
+    color: rgb(153, 0, 0);
+}
+
+.products {
+    border: 2px solid rgb(153, 0, 0);
+    background-color: rgb(231, 217, 227);
+    padding: 3vw 3vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    width: 15vw;
+}
+
+.product-info p {
+    color: rgb(0, 0, 0);
+}
+
+.product-price {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    color: rgb(0, 0, 0);
+    text-align: end;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px 15px;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
